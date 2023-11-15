@@ -4,7 +4,7 @@ name: Mediatek-Immortal
 on:
   #自动编译：每天早上4点
   schedule:
-    - cron: 0 0 12 1 1/1 ? *
+    - cron: 0 0 15 6 *
   #手动编译
   workflow_dispatch:
 
